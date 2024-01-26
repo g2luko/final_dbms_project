@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  #heading{
+    margin: 50px 0 auto auto;
+    text-align: center;
+    font-size: 50px;}
+  
+    body{
+      background: linear-gradient(90deg,#00b4d8,#90e0ef,#caf0f8)
+  
+    }
+  
+    #sports{
+      position: absolute;
+      width: 50vw;
+      height: 60px;
+      font-size: 40px;
+      text-align: center;
+      left: 350px;
+      margin-top: 50px;
+      border-radius: 10px;
+    }
+    .option{
+      font-size: 30px;}
+    
+    #submit{
+      width: 300px;
+      font-size: 40px;
+      position: absolute;
+      bottom: 15%;
+      margin-left: 40%;
+      border-radius: 50px;}
+    
+      #sports:hover{
+        background-color: blanchedalmond;
+      }
+      
+  

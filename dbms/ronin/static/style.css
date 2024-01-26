@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color:#052249;
+    
+  }
+  #bgimg{
+    position: fixed;
+    width: 100vw;
+    float: left;
+    
+  }
+  #forms{
+    margin: 10px;
+    width: 30vw;
+    /* background-color:blanchedalmond; */
+    position:fixed;
+    left: 59vw;
+    top: 30vh;
+  
+  }
+  form{
+    display:flex ;
+    flex-direction: column;
+    margin: 10px;
+  }
+  label{
+    margin-bottom: 10px; 
+    color: #5286FF;
+  }
+  #pass2{
+    margin-top: 30px;
+  
+  }
+  input{
+    height: 5vh;
+    
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: larger;
+  
+   
+  }
+  #btn{
+    margin-top: 25px;
+    width: 11vw;
+    border: 0;
+    border-radius: 10px;
+    color: #ffff;
+    background-color:#3e4ec5;
+    padding: 8px;
+    position: relative;
+    left: 30%;
+  }
+  
+  input:hover{
+    border: 2px solid #5286FF;
+    background-color: #BDD9BF;
+  }
+  
+  #btn:hover{
+    border: 2px solid #5286FF;
+    
+  }
+  
+  #tit{
+    background-color: #BDD9BF;
+    color: red ;
+    font-size: 40px;
+    position: fixed;
+    left: 55%;
+    top: 70px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  

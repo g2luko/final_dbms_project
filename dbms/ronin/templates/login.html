@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Management</title>
+    {% load static %}
+    <link  rel="stylesheet" href="{% static 'style.css' %}">
+
+    
+</head>
+<body>
+    
+  <div id="bgimg"> 
+    <img src="{% static 'sportbg.jpg'%} "alt="sports" width="50%" height="650">
+  </div>
+  
+  <div id="tit">
+    <h2> sports department</h2>
+  </div>
+<div id="forms">
+    <form action="" method ="post">
+    {% csrf_token %}
+    <label for="username" >USERNAME</label>
+    <input type="text" name="username" placeholder="username"><br>
+    <label for="pass" id="pass2">PASSWORD</label>
+    <input type="password" name = "password" placeholder="password">
+    <input id="btn"type="submit" value="submit"> 
+    </form>
+    <div>
+      {% if messages %}
+      <ul class="messages">
+          {% for message in messages %}
+          <p style="color:rgb(255, 255, 255);">{{ message }}</p>
+          {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>select sport</title>
+  {% load static %}
+  <link  rel="stylesheet" href="{% static 'style2.css' %}">
+</head>
+<body>
+  <form action="http://127.0.0.1:8000/ronin/results">
+   <div id="dropdown">
+    <h2 id="heading">Which sport's details would you like to view?</h2>
+    <select name="sports" id="sports">
+      <option value="0" label="" >Select sport of your choice</option>
+      <option value="kabadi" class="option">Kabadi</option>
+      <option value="basketball" class="option">Basketball</option>
+      <option value="football" class="option">Football</option>
+      <option value="cricket" class="option">Cricket</option>
+      <option value="khokho" class="option">Kho-Kho</option>
+    </select>
+   </div>
+   <div id="sub">
+    <input type="submit" id="submit">
+   </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'cssfolder/insert.css'%}">
+</head>
+<body>
+
+    <h1>Delete Record by ID</h1>
+    <form action="" method="post">
+    {% csrf_token %}
+        <label for="recordId">Enter ID to Delete:</label>
+        <input type="text" id="recordId" name="recordId" required>
+        <button type="submit">Delete Record</button>
+    </form>
+
+</body>
+</html>

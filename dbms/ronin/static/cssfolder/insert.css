@@ -1,0 +1,87 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(121, 121, 207);
+}
+header{
+  width: 100%;
+  background-color: palevioletred;
+  padding: 20px;
+}
+nav{
+  display: flex;
+  justify-content: end;
+  align-items:end;
+}
+a{
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+button{
+  padding: 10px;
+  margin-right: 10vw;
+  border-radius: 5px;
+  background-color: cadetblue;
+  border: none;
+
+}
+button:hover{
+  background-color: rgb(173, 203, 204);
+}
+article{
+  width: 25vw;
+  /*background-color: aqua;*/
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 15px 5px;
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+
+}
+.input-group input{
+  padding: 2vh 1vh;
+  background-color: rgb(202, 185, 218);
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+
+}
+.sub,.input-group input:focus{
+  outline: none;
+}
+.input-group label{
+  padding-left: 10px;
+  text-transform: uppercase;
+  color:white;
+}
+
+.sub{
+  background-color: rgb(189, 95, 157);
+  width: 100%;
+  display: inline ;
+  padding: 10px 0px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  text-transform: capitalize;
+}
+.sub:hover{
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(243, 206, 226)
+}
+
+
+
